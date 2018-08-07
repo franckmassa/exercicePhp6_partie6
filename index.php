@@ -7,7 +7,7 @@
 <body>
   <p>
     <?php
-    //Teste que les paramètres de l'url existent
+    //Teste que les paramètres de l'url existent et affichage des valeurs
     if(isset($_GET['building']) && isset($_GET['room'])){
       echo $_GET['building'] . ' ' . $_GET['room'];
     }
